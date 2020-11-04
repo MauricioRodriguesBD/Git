@@ -1,0 +1,29 @@
+git --version = Mostra a versão do git
+
+git init = inicializa um repositório do git
+
+git status = mostra o estado do repositório
+
+git add . = monitora todos os arquivos que não estavam dentro do repositório
+git add arquivo.text = monitora apenas o arquivo digitado
+git add *.text = monitora todos os arquivos que contém a extensão específica
+
+git commit -m = relata a modificação feita. O -m significa que é preciso passar uma mensagem
+sendo assim git commit -m "Comentário"
+
+git log = mostra o registro de alterações feitas.
+git log --oneline = resume o log
+
+
+git config = configura ou visualiza configurações para cada projeto
+git config --global Configuração realizada para um computador
+git config --local Configuração realizada para um único usuário
+config -- local/global user.name =  configuração para um nome do autor da alteração do commit sendo assim:
+config --local user.name "Maurício"
+verificar
+config user.name
+config user.email
+
+
+
+ 
